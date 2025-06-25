@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>&copy; 2023 My Vue Store</p>
+    <p>&copy; 2025 IP.VANO.COM</p>
   </footer>
 </template>
 

@@ -1,0 +1,121 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #F3F3F3;
+    padding: 0px 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #F3F3F3;
+}
+
+.container-search {
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select.filter {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+select.filter:focus {
+    outline: none;
+    border-color: none;
+    box-shadow: 0 0 4px rgba(102, 175, 233, 0.6);
+}
+
+option {
+    padding: 8px;
+}
+/* card */
+.container-product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 0 auto;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 50px;
+    column-gap: 120px;
+}
+.product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    width: 210px;
+    height: 300px;
+    background-color: #F3F3F3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #0000000A;
+}
+.img-product {
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+.btn-buy {
+    background-color: #F2F2F2;
+    padding: 2px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #D3D3D3;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+.container-price-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.price-span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #BDBDBD;
+    text-transform: uppercase;
+}
+.favorite-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    fill: #D3D3D3;
+}
+.favorited {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    background-color: #FEF0F0;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+
+}
